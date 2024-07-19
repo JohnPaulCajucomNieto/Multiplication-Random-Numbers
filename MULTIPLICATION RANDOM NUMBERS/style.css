@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content:  center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: #fc9d9d;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form{
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.input{
+    display: block;
+    width: 100%;  
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px solid black;
+    color: black;
+}
+.input::placeholder{
+    color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    background-color:  #fc9d9d;
+    color: black;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    filter: brightness(0.9);
+}
+.score{
+    text-align: left;
+    
+}
